@@ -1,0 +1,7 @@
+k,enet,rf,gb
+test_RMSE_beta1_t1,0.7217,0.6543,0.619
+test_MAE_beta1_t1,0.6351,0.4689,0.4306
+test_RMSE_beta2_t1,0.4628,0.6916,0.773
+test_MAE_beta2_t1,0.2985,0.5363,0.6021
+test_RMSE_beta3_t1,1.2069,1.1815,1.3738
+test_MAE_beta3_t1,0.8239,0.8618,0.989
