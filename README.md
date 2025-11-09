@@ -24,11 +24,10 @@ python -m pip install --upgrade pip
 python .\yieldcurve_fc.py
 
 # Results:
-![β1 on test](artifacts/figs/enet_test_beta1_t1.png)
-![β2 on test](artifacts/figs/enet_test_beta2_t1.png)
-![β3 on test](artifacts/figs/enet_test_beta3_t1.png)
-
-![Curve RMSE by tenor — TEST](artifacts/figs/curve_rmse_test_by_tenor.png)
-
+![ENet β1 on test](artifacts/figs/enet_test_beta1_t1.png)
+![ENet β2 on test](artifacts/figs/enet_test_beta2_t1.png)
+![ENet β3 on test](artifacts/figs/enet_test_beta3_t1.png)
+![Curve RMSE by tenor — test](artifacts/figs/curve_rmse_test_by_tenor.png)
+![β RMSE — test](artifacts/figs/test_rmse_by_beta.png)
 
 
