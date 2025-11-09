@@ -12,7 +12,7 @@ using **only public FRED data**. Monthly frequency, 2003-01 to 2025-06.
    - Train: 2003–2009  •  Val: 2010–2014  •  Test: 2015–2025
 4) Compare models in **factor space** (errors on β’s) and **yield space** (errors on reconstructed yields).
 
-# Quick start 
+# Quick start: 
 ```powershell (VScode)
 cd "path to project folder on your own pc"
  1) Create/activate venv
@@ -22,4 +22,13 @@ python -m venv .venv
 python -m pip install --upgrade pip
 3) Run the pipeline (my script)
 python .\yieldcurve_fc.py
+
+# Results:
+![β1 on test](artifacts/figs/enet_test_beta1_t1.png)
+![β2 on test](artifacts/figs/enet_test_beta2_t1.png)
+![β3 on test](artifacts/figs/enet_test_beta3_t1.png)
+
+![Curve RMSE by tenor — TEST](artifacts/figs/curve_rmse_test_by_tenor.png)
+
+
 
