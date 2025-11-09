@@ -1,5 +1,5 @@
 
-# Yield Curve Forecasting (FRED • 2003–2025)
+# Yield Curve Forecasting (FRED: 2003–2025)
 
 This is my end-to-end project to forecast the U.S. Treasury yield curve with
 **Nelson–Siegel factors** + **supervised models** (AR/VAR/Elastic Net/Random Forest/Gradient Boosting),
