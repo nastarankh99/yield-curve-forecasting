@@ -13,17 +13,13 @@ using **only public FRED data**. Monthly frequency, 2003-01 to 2025-06.
 4) Compare models in **factor space** (errors on β’s) and **yield space** (errors on reconstructed yields).
 
 # Quick start 
-```powershell
-cd "C:\Users\98910\Desktop\python project github"
-
-# 1) Create/activate venv
+```powershell (VScode)
+cd "path to project folder on your own pc"
+ 1) Create/activate venv
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-
-# 2) Install deps
+2) Install deps
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-
-# 3) Run the pipeline (my script)
+3) Run the pipeline (my script)
 python .\yieldcurve_fc.py
 
